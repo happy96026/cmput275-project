@@ -1,0 +1,124 @@
+V,Alaska,1
+V,Northwest Territories,10
+V,Alberta,1
+V,Ontario,5
+V,Eastern Canada,10
+V,Greenland,5
+V,Western United States,1
+V,Eastern United States,10
+V,Central America,5
+V,Venezuela,10
+V,Brazil,10
+V,Peru,5
+V,Argentina,1
+V,Iceland,1
+V,Great Britain,5
+V,Western Europe,1
+V,Northern Europe,5
+V,Southern Europe,5
+V,Scandinavia,10
+V,Russia,10
+V,Middle East,10
+V,Afghanistan,1
+V,Ural,5
+V,Siberia,10
+V,Yakutsk,5
+V,Irkutsk,1
+V,Mongolia,10
+V,Kamchatka,5
+V,Japan,1
+V,China,5
+V,India,1
+V,Southeast Asia,10
+V,Indonesia,5
+V,New Guinea,5
+V,Western Australia,10
+V,Eastern Australia,1
+V,Egypt,1
+V,North Africa,1
+V,East Africa,10
+V,Central Africa,5
+V,South Africa,10
+V,Madagascar,1
+E,Alaska,Northwest Territories,1
+E,Alaska,Alberta,1
+E,Northwest Territories,Alberta,1
+E,Northwest Territories,Greenland,1
+E,Northwest Territories,Ontario,1
+E,Alberta,Ontario,1
+E,Alberta,Western United States,1
+E,Ontario,Greenland,1
+E,Ontario,Eastern Canada,1
+E,Ontario,Eastern United States,1
+E,Ontario,Western United States,1
+E,Eastern Canada,Greenland,1
+E,Eastern Canada,Eastern United States,1
+E,Greenland,Iceland,1
+E,Western United States,Eastern United States,1
+E,Western United States,Central America,1
+E,Eastern United States,Central America,1
+E,Central America,Venezuela,1
+E,Venezuela,Peru,1
+E,Venezuela,Brazil,1
+E,Peru,Brazil,1
+E,Peru,Argentina,1
+E,Argentina,Brazil,1
+E,Brazil,North Africa,1
+E,Iceland,Great Britain,1
+E,Iceland,Scandinavia,1
+E,Great Britain,Scandinavia,1
+E,Great Britain,Northern Europe,1
+E,Scandinavia,Northern Europe,1
+E,Scandinavia,Russia,1
+E,Northern Europe,Russia,1
+E,Northern Europe,Western Europe,1
+E,Northern Europe,Southern Europe,1
+E,Western Europe,Southern Europe,1
+E,Western Europe,North Africa,1
+E,Southern Europe,Russia,1
+E,Southern Europe,Egypt,1
+E,Southern Europe,Middle East,1
+E,Southern Europe,North Africa,1
+E,Russia,Middle East,1
+E,Russia,Afghanistan,1
+E,Russia,Ural,1
+E,Middle East,Egypt,1
+E,Middle East,East Africa,1
+E,Middle East,Afghanistan,1
+E,Middle East,India,1
+E,Afghanistan,India,1
+E,Afghanistan,Ural,1
+E,Afghanistan,China,1
+E,Ural,China,1
+E,Ural,Siberia,1
+E,Siberia,China,1
+E,Siberia,Yakutsk,1
+E,Siberia,Irkutsk,1
+E,Siberia,Mongolia,1
+E,Yakutsk,Kamchatka,1
+E,Yakutsk,Irkutsk,1
+E,Irkutsk,Kamchatka,1
+E,Irkutsk,Mongolia,1
+E,Kamchatka,Japan,1
+E,Kamchatka,Mongolia,1
+E,Mongolia,Japan,1
+E,Mongolia,China,1
+E,China,India,1
+E,China,Southeast Asia,1
+E,India,Southeast Asia,1
+E,Southeast Asia,Indonesia,1
+E,Indonesia,New Guinea,1
+E,Indonesia,Western Australia,1
+E,New Guinea,Western Australia,1
+E,New Guinea,Eastern Australia,1
+E,Eastern Australia,Western Australia,1
+E,Madagascar,South Africa,1
+E,Madagascar,East Africa,1
+E,South Africa,East Africa,1
+E,South Africa,Central Africa,1
+E,Central Africa,East Africa,1
+E,Central Africa,North Africa,1
+E,East Africa,North Africa,1
+E,East Africa,Egypt,1
+E,North Africa,Egypt,1
+E,Alaska,Kamchatka,1

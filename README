@@ -1,0 +1,90 @@
+CMPUT 275 Project: Winter 2016
+
+Title: Risk (The board game)
+
+Names / Sections: Adam Narten / B1
+                  Daniel Choi / B1
+
+Acknowledgements: 
+Risk_map.png: https://www.graffletopia.com/stencils/455
+
+green_buble.png: http://www.clker.com/cliparts/Y/C/s/H/B/5/bubble-green-md.png
+
+red_bubble.png: http://www.clker.com/cliparts/2/u/q/J/m/y/bubble-red-md.png
+
+yellow_bubble.png: http://www.clker.com/cliparts/4/g/u/Z/5/n/bubble-yellow-md.png
+
+background.jpg: http://www.datemplate.com/postpic/2009/05/old-parchment-texture_440325.png
+
+round_rect.png: http://www.iconsdb.com/gray-icons/rounded-rectangle-icon.html
+
+Images edited with Paint.net
+
+textrect.py module: http://www.pygame.org/pcr/text_rect/index.php
+
+In Project.py:
+    - The with block is based off of twosteps.py from eClass with minor 
+    modifications for this project.
+    - The function path_search is based off breadth first search created
+    in class on Jan 21 with minor modifications.
+
+In func.py:
+    - The functions get_key, number, and yes_no were modified from
+    www.pygame.org/pcr/inputbox. All credit to Timothy Downs
+    - All other pygame related functions were made referencing pygame.org
+    
+
+Description: Human vs Computer version of the board game RISK. 
+             Rules and guidelines followed are those outlined on
+             www.hasbro.com/common/instruct/risk.pdf with the
+             two player variation implemented.
+
+Accessories: N/A
+
+Wiring instructions: N/A
+
+Operating instructions:
+With all included files and folders in the terminal's working directory,
+run the game using the command: python3 Project.py
+The game board will initialize and you will take turns with the computer
+placing two infantry on your green territories and one on a neutral 
+yellow territory by clicking with the mouse on the desired territory
+until a total of 40 units are on the board per player. 
+Then turn taking will commence. 
+
+Each turn, if card trading is possible the program prompts the player
+yes or no (y or n). Then the player must select three cards that either
+have matching values (ex. 5,5,5) or three different values (ex, 1,5,10) 
+as explained in the rule book inlcuded as a link in the description. 
+Wild cards can act as any of the values.
+
+After card trading has been finalized, player will then have the option
+to attack enemy territories. This is done by clicking the territory to 
+generate the attack from followed by the enemy territory to attack. 
+Once the territories have been selected the player will be prompted to
+enter the number of dice they wish to roll. The program then calculates
+the result of the attack and loops back to the beginning of the attack
+phase to perform futher attacks.
+
+Once attacking is complete, the user may then move infantry from any 
+owned territory to any other owned territory, provided a path exists
+over territories owned by that player. This is done by clicking on the
+desired territories followed by entering the number of infantry.
+At this point player 1's turn is complete.
+
+For player 2's turn, the only interaction required from the human player
+is to enter the number of dice to be rolled as the defender for either
+their territories or the neutral territories.
+Turn taking continues until either all of player 1 (green) or player 2 
+(red) territories have been eliminated at which point the game ends.
+
+Notes: 
+    - An edge (path) does exist between Alaska and Kamchatka (the
+        easternmost territory on Asia)
+    - Some actions have no return. For example once you declare you have
+        finished attacking there is no way to go back if you ended your
+        turn by mistake.
+    - Prompts are still shown on screen during Player 2's turn so that 
+        Player 1 can follow along and understand what is happening
+    - The time that prompts are displayed on screen vary and may go too
+        quickly for someone who doesn't know the rules of the game.
